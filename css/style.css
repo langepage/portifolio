@@ -19,7 +19,7 @@ header {
     height: 100vh;
     overflow: hidden;
     /*desabilita apossibilitade do cabeçalho passar do tamanho da janela 'quando gera uma rolagem lateral e em cima*/
-    position: relative;
+  
     position: relative;
 }
 
@@ -78,8 +78,8 @@ header {
 }
 
 .banner p {
-    font-family: "Josefin-Slab", serif;
-    font-weight: 1;
+    font-family: "Josefin Slab", serif;
+    font-weight: 100;
     color: #fff;
     font-size: 2rem;
     text-shadow: .2rem .2rem rgba(0, 0, 0, .4);
@@ -91,7 +91,8 @@ header {
 .banner button {
     font-family: "Muli", serif;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
     letter-spacing: .1rem;
     /*letter-spacing ==> espaçamento entre letras do elemento selecionado */
     background: #00c6ff;
@@ -121,5 +122,5 @@ header {
 /*  animação ao passar o mouse sobre o botão */
 .banner button:hover {
     opacity: 0.8;
-    color: aqua;
+    color: rgb(218, 198, 23);
 }
